@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Women Safety CCTV Monitoring</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Women Safety CCTV Monitoring</h1>
+    </header>
+    <main>
+        <section class="top-sections">
+            <div class="live-feed">
+                <h2>Live Feed</h2>
+                <div id="liveFeedContainer">
+                    <!-- Live video feed will be displayed here -->
+                    <video id="liveFeed" autoplay controls></video>
+                </div>
+            </div>
+        </section>
+        <section class="bottom-sections">
+            <div class="alerts">
+                <h2>Alerts</h2>
+                <div id="alertsContainer">
+                    <!-- Alerts will be displayed here -->
+                </div>
+            </div>
+            <div class="control-panel">
+                <h2>Control Panel</h2>
+                <button id="startScreenshotButton">Start</button>
+                <button id="stopScreenshotButton" disabled>Stop</button>
+            </div>
+        </section>
+    </main>
+   
+    <script src="scripts.js"></script>
+</body>
+</html>
